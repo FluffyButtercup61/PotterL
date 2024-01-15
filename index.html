@@ -1,0 +1,156 @@
+Syakira Housemate, [16/1/2024 1:17 AM]
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patrons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{background-color:seagreen;}
+
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: seagreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<h1 style="color:black; text-align:center; font-size:450%; font-family:cooper;">FAQ</h1>
+<p style="color:black;text-align:center; font-size:150%; font-family:cooper;">Library Hours:</p>
+<ul style="color:black; text-align:center; font-size:100%; font-family:papyrus;">What are the library's regular operating hours?
+<li>Monday and public holiday: Closed</li>
+<li>Tuesday – Sunday : 9:00 AM to 6:00 PM</li></ul>
+<br>
+<p style="color:black;text-align:center; font-size:150%; font-family:cooper;">Membership and Borrowing:</p>
+<ul style="color:black; text-align:center; font-size:100%; font-family:papyrus;">How can someone become a library member?
+<li>To become a library member, you need to sign up on our website or by registering in person at the library.</li>
+What are the borrowing policies?
+<li>Our libraries allow patrons to borrow up to 10 books per borrowing process.</li>
+Are there any fines for overdue materials? 
+<li>Yes, we charge fines RM1 per day starting from the day after the due date.</li></ul>
+<br>
+<p style="color:black;text-align:center; font-size:150%; font-family:cooper;">Library Events and Programs:</p>
+<ul style="color:black; text-align:center; font-size:100%; font-family:papyrus;">Where can patrons find information about upcoming library events?
+<li>Checking the library's website.</li>
+<li>Following the library on social media</li></ul>
+<br>
+<p style="color:black;text-align:center; font-size:150%; font-family:cooper;">Reference and Research Assistance:</p>
+<ul style="color:black; text-align:center; font-size:100%; font-family:papyrus;">What resources or services are available in the library?
+<li>Our libraries offer a wide array of resources, events and programming designed to engage and educate. We also provide books, media, online database and more.</li></ul>
+<br>
+<p style="color:black;text-align:center; font-size:150%; font-family:cooper;">Special Collections</p>
+<ul style="color:black; text-align:center; font-size:100%; font-family:papyrus;">What special collections and archives does the library provide?
+<li>We provide rare books, manuscripts and a numbers of service to help with research such as access to reference librarians and research assistance.</li></ul>
+<br>
+<br>
+<br>
+<h2 style="font-family:cooper;font-size:200%;color:black;text-align:center;">Respondent Form</h2>
+<p style="font-family:papyrus;font-size:150%;color:black;text-align:center;">Please give your feedback for our Library service.</p>
+
+Syakira Housemate, [16/1/2024 1:17 AM]
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label style="font-family:cooper;font-size:100%;color:seagreen;text-align:center;"for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label style="font-family:cooper;font-size:100%;color:seagreen;text-align:center;"for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label style="font-family:cooper;font-size:100%;color:seagreen;text-align:center;"for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="united kingdom">United Kingdom</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label style="font-family:cooper;font-size:100%;color:seagreen;text-align:center;"for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<br>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+<div class="social-icons w3-center"><a href="https://t.me/RosalyndaRobert"><i class="fa fa-telegram" style="font-size: 30px; color: white;"></i></a> <a href="https://www.facebook.com/ealissa.rozzaline.9?mibextid=LQQJ4d"><i class="fa fa-facebook" style="font-size: 30px; color: white;"></i></a> <a href="https://t.snapchat.com/zgu91eCd"><i class="fa fa-snapchat" style="font-size: 30px; color: white;"></i></a> <a href="https://pin.it/5kY8L5J"><i class="fa fa-pinterest" style="font-size: 30px; color: white;"></i></a></div>
+</footer>
+</body>
+</html>
